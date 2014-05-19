@@ -9,6 +9,17 @@ From zero to hello-world:
     > ./serve
     > ./open
 
+## What next?
+
+* Put application setup in `src/app.php` and `config/`
+* Put new controllers in `src/controllers.php`, splitting them off into separate, sensible files when there are too many
+* Put new templates in `templates/`
+* Put new tests in `test/ApplicationTest.php`
+* Put javascript in `web/js/app.js`
+* Put new console commands in `src/console.php`
+
+If I want to implement logging in really quickly I usually install `taproot/authentication` — the lowest-friction route to allowing login with your domain name.
+
 ## Back-end
 
 A basic Silex app is created with a URL generation provider and a basic pure-PHP template rendering provider which can be used like this:

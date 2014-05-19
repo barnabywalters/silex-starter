@@ -1,0 +1,6 @@
+.DS_Store
+vendor/
+logs/
+composer.phar
+.idea/workspace.xml
+config/user.php

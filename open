@@ -1,0 +1,6 @@
+open http://localhost:9000
+proc=`lsof -i :9000`
+
+if [[ ${#proc} == 0 ]]
+	then ./serve
+fi

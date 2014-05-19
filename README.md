@@ -5,7 +5,7 @@ My skeleton for PHP+Silex applications. Small, flat, predictable, minimal, flexi
 From zero to hello-world:
 
     > curl -Ss https://getcomposer.org/installer | php
-    > ./composer.phar start-project barnabywalters/silex-starter
+    > ./composer.phar create-project barnabywalters/silex-starter
     > ./serve
     > ./open
 

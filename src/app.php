@@ -4,12 +4,6 @@ namespace YOUR_NAMESPACE_HERE;
 
 use Silex\Application;
 use Silex\Provider\UrlGeneratorServiceProvider;
-use Guzzle;
-use Taproot;
-use Taproot\Subscriptions;
-use PDO;
-use Illuminate\Encryption\Encrypter;
-use Elasticsearch;
 
 $app = new Application();
 

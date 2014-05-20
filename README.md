@@ -11,6 +11,7 @@ From zero to hello-world:
 
 ## What next?
 
+* Replace namespace placeholders with the namespace for your project with this quick zsh+perl script: `perl -p -i -e 's/YOUR_NAMESPACE_HERE/Your\\Actual\\Namespace/g' **/*.php`
 * Put application setup in `src/app.php` and `config/`
 * Put new controllers in `src/controllers.php`, splitting them off into separate, sensible files when there are too many
 * Put new templates in `templates/`
